@@ -11,12 +11,12 @@
 
   <project remote="oe" revision="daisy" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="quancao" revision="daisy" name="freescale-daisy-fsl-community-bsp-base" path="sources/base">
+  <project remote="quancao" revision="master" name="freescale-daisy-fsl-community-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="quancao" revision="daisy" name="freescale-daisy-meta-fsl--arm-extra" path="sources/meta-fsl-arm-extra"/>
-  <project remote="quancao" revision="daisy" name="freescale-daisy-meta-fsl-demos" path="sources/meta-fsl-demos"/>
+  <project remote="quancao" revision="master" name="freescale-daisy-meta-fsl--arm-extra" path="sources/meta-fsl-arm-extra"/>
+  <project remote="quancao" revision="master" name="freescale-daisy-meta-fsl-demos" path="sources/meta-fsl-demos"/>
 
 </manifest>
