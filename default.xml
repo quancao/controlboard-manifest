@@ -19,6 +19,6 @@
   <project remote="quancao" revision="master" name="freescale-daisy-meta-fsl--arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="quancao" revision="master" name="freescale-daisy-meta-fsl-demos" path="sources/meta-fsl-demos"/>
   <project remote="quancao" revision="master" name="zzz-vitron-01" path="sources/meta-vitron-controlpanel"/>
-  <project remote="quancao" revision="master" name="kernel-imx-controlboard" path="sources/meta-vitron-controlpanel/recipes-kernel/linux/linux-controlboard-3.10.17/linux-controlboar"/>
+  <project remote="quancao" revision="master" name="kernel-imx-controlboard" path="sources/meta-vitron-controlpanel/recipes-kernel/linux/linux-controlboard-3.10.17/linux-controlboard"/>
 
 </manifest>
