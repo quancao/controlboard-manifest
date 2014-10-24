@@ -18,5 +18,6 @@
 
   <project remote="quancao" revision="master" name="freescale-daisy-meta-fsl--arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="quancao" revision="master" name="freescale-daisy-meta-fsl-demos" path="sources/meta-fsl-demos"/>
+  <project remote="quancao" revision="master" name="zzz-vitron-01" path="sources/meta-vitron-controlpanel"/>
 
 </manifest>
