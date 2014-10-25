@@ -3,22 +3,22 @@
 
   <default sync-j="4" revision="daisy"/>
 
-  <remote fetch="git://github.com/quancao" name="quancao"/>
+  <remote fetch="git://github.com/quancao" name="github"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
 
-  <project remote="quancao" revision="master" name="yocto-daisy-poky" path="sources/poky"/>
-  <project remote="quancao" revision="master" name="yocto-daisy-meta-fsl-arm" path="sources/meta-fsl-arm"/>
+  <project remote="github" revision="master" name="yocto-daisy-poky" path="sources/poky"/>
+  <project remote="github" revision="master" name="yocto-daisy-meta-fsl-arm" path="sources/meta-fsl-arm"/>
 
   <project remote="oe" revision="daisy" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="quancao" revision="master" name="freescale-daisy-fsl-community-bsp-base" path="sources/base">
+  <project remote="github" revision="master" name="freescale-daisy-fsl-community-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="quancao" revision="master" name="freescale-daisy-meta-fsl--arm-extra" path="sources/meta-fsl-arm-extra"/>
-  <project remote="quancao" revision="master" name="freescale-daisy-meta-fsl-demos" path="sources/meta-fsl-demos"/>
-  <project remote="quancao" revision="master" name="zzz-vitron-01" path="sources/meta-vitron-controlpanel"/>
-  <project remote="quancao" revision="master" name="kernel-imx-controlboard" path="sources/meta-vitron-controlpanel/recipes-kernel/linux/linux-controlboard-3.10.17/linux-controlboard"/>
+  <project remote="github" revision="master" name="freescale-daisy-meta-fsl--arm-extra" path="sources/meta-fsl-arm-extra"/>
+  <project remote="github" revision="master" name="freescale-daisy-meta-fsl-demos" path="sources/meta-fsl-demos"/>
+  <project remote="github" revision="master" name="zzz-vitron-01" path="sources/meta-vitron-controlpanel"/>
+  <project remote="github" revision="master" name="kernel-imx-controlboard" path="sources/meta-vitron-controlpanel/recipes-kernel/linux/linux-controlboard-3.10.17/linux-controlboard"/>
 
 </manifest>
