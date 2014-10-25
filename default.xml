@@ -3,7 +3,7 @@
 
   <default sync-j="4" revision="daisy"/>
 
-  <remote fetch="git://github.com/quancao" name="github"/>
+  <remote fetch="git@github.com/quancao" name="github"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
 
   <project remote="github" revision="master" name="yocto-daisy-poky" path="sources/poky"/>
