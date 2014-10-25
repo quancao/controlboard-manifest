@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="daisy"/>
+  <default sync-j="4" revision="master"/>
 
-  <remote fetch="git@github.com:quancao" name="github"/>
+  <remote fetch="https://github.com/quancao/" name="github"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
 
-  <project remote="github" revision="master" name="yocto-daisy-poky" path="sources/poky"/>
-  <project remote="github" revision="master" name="yocto-daisy-meta-fsl-arm" path="sources/meta-fsl-arm"/>
+  <project remote="github" name="yocto-daisy-poky" path="sources/poky"/>
+  <project remote="github" name="yocto-daisy-meta-fsl-arm" path="sources/meta-fsl-arm"/>
 
   <project remote="oe" revision="daisy" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="github" revision="master" name="freescale-daisy-fsl-community-bsp-base" path="sources/base">
+  <project remote="github" name="freescale-daisy-fsl-community-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="github" revision="master" name="freescale-daisy-meta-fsl--arm-extra" path="sources/meta-fsl-arm-extra"/>
-  <project remote="github" revision="master" name="freescale-daisy-meta-fsl-demos" path="sources/meta-fsl-demos"/>
-  <project remote="github" revision="master" name="zzz-vitron-01" path="sources/meta-vitron-controlpanel"/>
-  <project remote="github" revision="master" name="kernel-imx-controlboard" path="sources/meta-vitron-controlpanel/recipes-kernel/linux/linux-controlboard-3.10.17/linux-controlboard"/>
+  <project remote="github" name="freescale-daisy-meta-fsl--arm-extra" path="sources/meta-fsl-arm-extra"/>
+  <project remote="github" name="freescale-daisy-meta-fsl-demos" path="sources/meta-fsl-demos"/>
+  <project remote="github" name="zzz-vitron-01" path="sources/meta-vitron-controlpanel"/>
+  <project remote="github" name="kernel-imx-controlboard" path="sources/meta-vitron-controlpanel/recipes-kernel/linux/linux-controlboard-3.10.17/linux-controlboard"/>
 
 </manifest>
